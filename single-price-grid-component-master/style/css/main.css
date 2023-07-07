@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  font-size: 1.6rem;
+  font-family: "Karla", sans-serif;
+  background-color: #e5eff5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; }
+
+h1 {
+  font-size: 2.4rem;
+  letter-spacing: -0.3px; }
+
+h2 {
+  font-size: 1.8rem;
+  letter-spacing: -0.22px; }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 2rem;
+  width: 80rem; }
+  @media only screen and (max-width: 50em) {
+    .container {
+      width: 60rem; } }
+  @media only screen and (max-width: 37.5em) {
+    .container {
+      width: 40rem; } }
+  @media only screen and (max-width: 25em) {
+    .container {
+      width: 30rem; } }
+  .container .community {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 6rem;
+    border-radius: 2rem 2rem 0 0; }
+    @media only screen and (max-width: 50em) {
+      .container .community {
+        padding: 3rem; } }
+    .container .community__heading--1 {
+      color: #2ab2af;
+      margin-bottom: 3rem; }
+    .container .community__heading--2 {
+      color: #c0df34;
+      margin-bottom: 2rem; }
+    .container .community__paragraph {
+      color: #9aa7be;
+      line-height: 2rem; }
+  .container .informations {
+    display: flex;
+    border-radius: 2rem; }
+    @media only screen and (max-width: 37.5em) {
+      .container .informations {
+        display: flex;
+        flex-direction: column; } }
+    .container .informations .subs {
+      background-color: #2ab3b0;
+      padding: 6rem;
+      border-radius: 0 0 0 2rem;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; }
+      @media only screen and (max-width: 50em) {
+        .container .informations .subs {
+          padding: 3rem; } }
+      @media only screen and (max-width: 37.5em) {
+        .container .informations .subs {
+          border-radius: 0; } }
+      .container .informations .subs__heading {
+        color: #ffffff;
+        margin-bottom: 2rem; }
+      .container .informations .subs__monthly {
+        display: flex;
+        align-items: center; }
+        .container .informations .subs__monthly--price {
+          font-size: 3.2rem;
+          color: #ffffff;
+          margin-right: 2rem; }
+        .container .informations .subs__monthly--permonth {
+          color: #e5eff5; }
+      .container .informations .subs__informations {
+        color: #e5eff5;
+        margin: 1rem 0 3rem 0; }
+      .container .informations .subs__btn {
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        padding: 1.5rem;
+        background-color: #c0df34;
+        color: #ffffff;
+        font-weight: 700;
+        border-radius: 1rem; }
+    .container .informations .why {
+      background-color: #4bbfbc;
+      flex: 1;
+      padding: 6rem;
+      border-radius: 0 0 2rem 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; }
+      @media only screen and (max-width: 50em) {
+        .container .informations .why {
+          padding: 3rem; } }
+      @media only screen and (max-width: 37.5em) {
+        .container .informations .why {
+          border-radius: 0 0 2rem 2rem; } }
+      .container .informations .why__heading {
+        color: #ffffff;
+        margin-bottom: 2rem; }
+      .container .informations .why p {
+        color: #e5eff5; }
+      .container .informations .why p:not(:last-child) {
+        margin-bottom: 0.5rem; }
+
+/*# sourceMappingURL=main.css.map */
